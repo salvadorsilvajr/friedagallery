@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles.css"
+// import qr from '../img/qrcode.png'
 import { Link, withRouter} from 'react-router-dom';
 
 const Footer = () =>  ( 
@@ -27,6 +28,9 @@ const Footer = () =>  (
 					<h5 className="animate__animated animate__bounce text-warning " id="text-rights">© 2020, All rights reserved Website
 					Design by Salvador
 					Silva </h5>
+					{/* <a href="https://galleryfrieda.herokuapp.com/">
+						<img className="img-fluid" src={qr} alt="qr code"/>
+					</a> */}
 
 				</div>
 				<div className="col-lg-4 px-5 footer-ns animated fadeInRight">
