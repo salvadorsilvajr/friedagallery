@@ -29,10 +29,19 @@
 }
 
 #friedaPic {
+   animation: rotateIn;
+   animation-duration: 4s;
    margin-top: -7rem;
    margin-bottom: 1rem;
    border-radius: 50%;
    height: 13rem;
+}
+
+#artisname {
+   margin-top: 2em;
+   text-align: center;
+   color: #fff;
+   font-size: 4.5rem;
 }
 
 
@@ -132,6 +141,10 @@
    font-size: 1.2rem;
 }
 
+.product-img {
+   display: flex;
+   justify-content: center;
+}
 
 .homepage {
    width: auto;
@@ -140,8 +153,8 @@
 
 .homepage .product-img {
    min-height: 100px;
-   max-width: 180px;
    max-height: 230px;
+   max-width: auto;
 }
 
 .homepage .lead {
@@ -150,7 +163,8 @@
 }
 
 .homepage img {
-   height: 10rem;
+
+   height: 12rem;
 
 }
 
@@ -220,7 +234,7 @@
    width: auto;
    height: auto;
    color: #fff;
-   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background: linear-gradient(-45deg, #04546d, #91dee0, #23a6d5, #23d5ab);
    background-size: 400% 400%;
    -webkit-animation: Gradient 15s ease infinite;
    -moz-animation: Gradient 15s ease infinite;
@@ -289,7 +303,7 @@ footer .jumbotron .row {
 }
 
 footer h5 {
-   margin-top: 2em;
+   margin-top: 4em;
    font-size: 1em;
 }
 

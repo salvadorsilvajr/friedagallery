@@ -52,7 +52,7 @@ const Home = () => {
    },[])
 
    return (
-      <Layout title='Home Page' description='Coffee, Grinders, Expresso Machines and more ...'className='container homepage'>
+      <Layout title='Home Page' description='Art Pieces from young emerging Artist from Saint Louis Missouri'className='container homepage'>
          <Search/>
          <h2 className="mb-4">New Arrivals</h2>
          <div className="row">

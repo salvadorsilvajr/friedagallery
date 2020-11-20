@@ -75,7 +75,7 @@ const Signup = () => {
    )
 
    return (
-         <Layout title='Signup' description='Signup Node Reac E-commerce App' className="container col-md-8 offset-md-2">
+         <Layout title='Signup' description='Create and account to fast check out' className="container col-md-8 offset-md-2">
            {showSuccess()}
            {showError()}    
            {signUPForm()}
