@@ -20,9 +20,11 @@ run = undefined  }) => {
             <Link to={`/product/${product._id}`} className='mr-2' >
                <button className="btn btn-sm btn-outline-primary mt-2 mb-2">View Product</button>
             </Link>
-         )
+            
+         ) 
       )
    }
+
 
    const addToCart = () => {
       addItem(product,  setRedirect(true)

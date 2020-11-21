@@ -397,10 +397,11 @@ footer h5 {
 
 
    .homepage .product-img {
-      min-height: 80px;
+      margin: auto;
+      min-height: 160px;
+      max-height: 10rem;
       max-width: auto;
-      max-height: 120px;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
    }
 
    .homepage .lead {
@@ -437,14 +438,16 @@ footer h5 {
    }
 
    .homepage img {
-      height: 10rem;
+      height: 9rem;
 
    }
 
    .shop .product-img {
-      min-height: 100px;
-      max-width: 100px;
-      max-height: auto;
+      margin: auto;
+      min-height: 160px;
+      max-height: 10rem;
+      max-width: auto;
+      margin-bottom: 1rem;
    }
 
    .shop .lead {
@@ -501,9 +504,11 @@ footer h5 {
    }
 
    .relateproducts .product-img {
-      min-height: 100px;
-      max-width: 100px;
-      max-height: auto;
+      margin: auto;
+      min-height: 160px;
+      max-height: 10rem;
+      max-width: auto;
+      margin-bottom: 1rem;
    }
 
    .contproduct .lead {
@@ -518,7 +523,7 @@ footer h5 {
    }
 
    .relateproducts img {
-      height: 6rem;
+      height: 8rem;
 
    }
 
@@ -540,9 +545,9 @@ footer h5 {
 
 
    .card .product-img {
-      min-height: 100px;
-      max-width: 100px;
+      min-height: 8rem;
       max-height: auto;
+      max-width: auto;
    }
 
    .card .lead {
@@ -551,7 +556,7 @@ footer h5 {
    }
 
    .card img {
-      height: 6rem;
+      height: auto;
 
    }
 
