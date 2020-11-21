@@ -506,7 +506,7 @@ footer h5 {
    .contproduct .product-img {
       margin: auto;
       min-height: 160px;
-      max-height: 12rem;
+      max-height: 25rem;
       max-width: auto;
       margin-bottom: 1rem;
    }
@@ -541,6 +541,15 @@ footer h5 {
       font-size: 1.8rem;
       color: #17a2b8;
 
+   }
+
+
+   .cart .product-img {
+      margin: auto;
+      min-height: 160px;
+      max-height: 25rem;
+      max-width: auto;
+      margin-bottom: 1rem;
    }
 
 

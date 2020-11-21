@@ -41,7 +41,7 @@ const Cart = () => {
    return (
       <Layout title='Shopping Cart' description="Checkout Now"className='container'>
          <div className="row d-flex sumcart justify-content-around">
-            <div className="col-lg-4 col-sm-4 mx-4 my-3">
+            <div className="cart col-lg-4 col-sm-4 mx-4 my-3">
                {items.length > 0 ? showItems(items) : noitemsMessage()}
             </div>
 
